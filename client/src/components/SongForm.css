@@ -10,6 +10,7 @@
     border: solid 3px antiquewhite;
     border-radius: 5rem;
     background-color: rgb(110, 103, 93);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .spaced {

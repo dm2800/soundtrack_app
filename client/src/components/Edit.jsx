@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from "axios"
-import {Link, useParams, useNavigate} from "react-router-dom"
+import {useParams, useNavigate} from "react-router-dom"
 
 const EditSong = (props) => {
     const { id } = useParams();
@@ -11,8 +11,6 @@ const EditSong = (props) => {
     const [errors, setErrors] = useState({});
 
     const navigate = useNavigate();
-    
-    console.log(id);
 
     useEffect(() => {
         axios
