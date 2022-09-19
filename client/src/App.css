@@ -5,6 +5,7 @@
   background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thejoyofrummagingthroughrecordbins-index-1634329815.jpeg");
   background-size: 800px;
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .App-logo {
