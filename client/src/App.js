@@ -17,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/add" element={<SongForm />} />
         <Route path="/edit/:id" element={<EditSong />} />
+        <Route path = "/home" element = {<Home/>} />
+        <Route path = "/viewsong/:id" element = {<Display/>} />
       </Routes>
       </BrowserRouter>
     </div>
