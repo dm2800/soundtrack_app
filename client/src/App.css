@@ -1,8 +1,8 @@
 .App {
-  margin:0;
+  margin: 0;
   padding: 50px;
   text-align: center;
-  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thejoyofrummagingthroughrecordbins-index-1634329815.jpeg?fbclid=IwAR2DF0y6gnpLDpDg_2m0OOMu2hWc-8vSjoq_y5CG3hK2_QPDXfaDCbP4wIA);
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thejoyofrummagingthroughrecordbins-index-1634329815.jpeg");
   background-size: 800px;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; 
 }
 
 
@@ -121,4 +121,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-link {
+  font-family: 'Lobster', cursive;
 }
